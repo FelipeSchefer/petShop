@@ -1,0 +1,17 @@
+CREATE TABLE pet_shop(
+    id INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR (10),
+    sobrenome VARCHAR (10),
+    email VARCHAR (30),
+    senha VARCHAR (20),
+    avenida VARCHAR (30),
+    cidade VARCHAR (20),
+    estado VARCHAR (30),
+    cep VARCHAR (20),
+    servicos VARCHAR (50),
+    brinquedos VARCHAR (50),
+    concordaComCompra VARCHAR (100),
+    
+    PRIMARY KEY (id)
+  );
+  Drop TABLE pet_shop;
